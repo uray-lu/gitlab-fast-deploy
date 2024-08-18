@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gmail-webhook"
+version = "0.1.0"
+description = ""
+authors = ["Ray Lu <raylu@gamania.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-auth = "^2.32.0"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.138.0"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
